@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TOKI Mood Tracker</string>
+    <string name="app_logo">App Logo</string>
+    <string name="welcome_message">Welcome to Your Safe Place</string>
+    <string name="login">Log in</string>
+    <string name="signup">Sign up</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="username_label">Username</string>
+    <string name="password_label">Password</string>
+    <string name="logout">Logout</string>
+    <string name="greet_message">Track your moods with TOKI</string>
+    <string name="login_welcome">Welcome back!</string>
+    <string name="signup_welcome">Create an account</string>
+    <string name="signup_username_hint">Choose a username</string>
+    <string name="signup_password_hint">Choose a password</string>
+
+    <!-- Settings Fragment -->
+    <string name="settings_title">your safe place is your own\ndesign …</string>
+    <string name="theme_button_label">theme</string>
+    <string name="theme_status_light">light mode</string>
+    <string name="theme_status_dark">dark mode</string>
+    <string name="animation_button_label">animation</string>
+    <string name="animation_status_on">on</string>
+    <string name="animation_status_off">off</string>
+    <string name="sound_volume_label">sound volume</string>
+    <string name="reminder_label">daily reminder</string>
+    <string name="reminder_none">no reminder</string>
+    <string name="reminder_1h">every hour</string>
+    <string name="reminder_2h">every 2 hours</string>
+    <string name="reminder_3h">every 3 hours</string>
+    <string name="reminder_6h">every 6 hours</string>
+    <string name="reminder_12h">every 12 hours</string>
+    <string name="reminder_24h">every 24 hours</string>
+    <string name="logout_button">log out</string>
+
+    <!-- Home strings -->
+    <string name="greeting_text">hey, %s</string>
+</resources>

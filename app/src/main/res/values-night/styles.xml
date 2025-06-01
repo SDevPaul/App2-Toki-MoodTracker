@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemBackground">@drawable/bottom_nav_item_background_selector_dark</item>
+        <item name="itemIconTint">@color/bottom_nav_item_color_dark</item>
+        <item name="itemTextColor">@color/bottom_nav_item_color_dark</item>
+        <item name="itemActiveIndicatorStyle">@null</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="itemPaddingTop">8dp</item>
+        <item name="itemPaddingBottom">8dp</item>
+        <item name="itemIconSize">24dp</item>
+        <item name="itemRippleColor">@null</item>
+        <item name="itemStrokeWidth">0dp</item>
+    </style>
+</resources> 

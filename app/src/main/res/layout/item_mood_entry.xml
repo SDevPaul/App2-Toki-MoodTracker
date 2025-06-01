@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginBottom="12dp"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/logDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="log date: 18/05/2025; 10:54pm"
+        android:textColor="@color/text_secondary"
+        android:textSize="12sp"
+        android:alpha="0.8" />
+
+    <TextView
+        android:id="@+id/moodText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="mood: happy; grateful"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/reflectionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I've realized how lucky I am to be with such amazing people, I wouldn't be where I am today without them..."
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:alpha="0.8"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout> 

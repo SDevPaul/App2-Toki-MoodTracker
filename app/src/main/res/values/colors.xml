@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_primary">@color/black</color>
+    <color name="button_secondary">#F5F5F5</color>
+    <color name="hint_text">#666666</color>
+    <color name="text_primary">@color/black</color>
+    <color name="text_secondary">#666666</color>
+    <color name="background_primary">@color/white</color>
+    <color name="background_secondary">#F5F5F5</color>
+
+    <!-- Navigation colors -->
+    <color name="nav_dark">#2E2E2E</color>
+    <color name="nav_selected_dark">#2E2E2E</color>
+    <color name="nav_unselected_dark">#FFFFFF</color>
+    <color name="nav_selected_light">#000000</color>
+    <color name="nav_unselected_light">#757575</color>
+
+    <!-- Auth colors that never change -->
+    <color name="auth_background">@android:color/white</color>
+    <color name="auth_text_primary">@android:color/black</color>
+    <color name="auth_text_secondary">#666666</color>
+    <color name="auth_button_background">@android:color/black</color>
+    <color name="auth_button_text">@android:color/white</color>
+    <color name="auth_input_background">#F5F5F5</color>
+    <color name="auth_hint_text">#666666</color>
+</resources>

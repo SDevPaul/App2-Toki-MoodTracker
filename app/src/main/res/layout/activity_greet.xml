@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.TOKIMoodTracker.Auth"
+    android:background="@color/auth_background">
+
+    <TextView
+        android:id="@+id/greetMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A peaceful\nspace to track\nyour\nemotions\nthrough time."
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="start"
+        android:letterSpacing="0.02"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="#191919"
+        android:paddingVertical="12dp"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toTopOf="@id/signupButton" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signupButton"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginBottom="150dp"
+        android:backgroundTint="#F3F3F3"
+        android:text="Sign up"
+        android:textAllCaps="false"
+        android:textColor="#191919"
+        android:paddingVertical="12dp"
+        app:cornerRadius="12dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout> 
